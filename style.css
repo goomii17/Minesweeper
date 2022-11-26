@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+#title {
+    background-color: rgb(5, 85, 85);
+    padding: 10px;
+    text-align: center;
+    font-size: 2em;
+    font-family: 'Roboto', sans-serif;
+}
+
+#content {
+    text-align: center;
+    background-color: teal;
+    flex: 1;
+    padding: 10px;
+    padding-top: 20px;
+}
+
+header h1 {
+    font-size: 36px;
+    font-family: Georgia, Times New Roman, Times, serif;
+    font-style: italic;
+}
+
+button {
+    padding: 3px;
+}
+
+.button {
+    margin: 0px 5px 0px 5px;
+    padding: 1px 5px 1px 5px;
+    border-radius: 10px;
+}
+
+.button:hover {
+    background-color: rgb(5, 85, 85);
+    color: white;
+}
+
+select {
+    margin: 0px 5px 0px 5px;
+    padding: 1px 5px 1px 5px;
+    border-radius: 10px;
+}
+
+#marks {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+#canvasContainer {
+    padding: 5px;
+}
